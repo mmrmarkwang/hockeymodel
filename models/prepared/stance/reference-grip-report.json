@@ -1,0 +1,12 @@
+{
+  "wrist_target_error_m": {
+    "R": 3.704190102672565e-05,
+    "L": 0.014689270925670222
+  },
+  "implementation": "Separate closed hockey glove blockouts rigidly skinned to Hand.L/R; original open hands reversibly masked",
+  "limits": [
+    "Static grip only; no finger articulation",
+    "Lower-hand animated contact still requires IK",
+    "Not exported or validated in Unity"
+  ]
+}

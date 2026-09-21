@@ -1,0 +1,18 @@
+{
+  "wrist_target_error_m": {
+    "R": 2.1490760299348766e-07,
+    "L": 1.4057727354849284e-07
+  },
+  "wrap_check": {
+    "finger_angle_delta_radians": 3.6,
+    "thumb_angle_delta_radians": -2.45,
+    "opposite_directions": true,
+    "reference": "Same local shaft cross-section for each hand; not fixed world clockwise for both hands"
+  },
+  "implementation": "Separate closed hockey glove blockouts rigidly skinned to Hand.L/R; original open hands reversibly masked",
+  "limits": [
+    "Static grip only; no finger articulation",
+    "Lower-hand animated contact still requires IK",
+    "Not exported or validated in Unity"
+  ]
+}

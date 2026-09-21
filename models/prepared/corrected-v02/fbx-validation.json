@@ -1,0 +1,49 @@
+{
+  "fbx_structural_reimport": "passed",
+  "fbx_pose_evaluation": "passed",
+  "triangles": 18000,
+  "bones": 22,
+  "actions_hips_world_m": {
+    "HockeyRig_Prototype|HockeyRig_Prototype|ArmReach_Check": [
+      0.0,
+      -1.4210854715202004e-14,
+      0.9799998998641968
+    ],
+    "HockeyRig_Prototype|HockeyRig_Prototype|BindPose_Check": [
+      0.0,
+      -1.4210854715202004e-14,
+      0.9799998998641968
+    ],
+    "HockeyRig_Prototype|HockeyRig_Prototype|SidePush_Check": [
+      -0.07999999821186066,
+      -1.955048389845615e-08,
+      0.8599998950958252
+    ],
+    "HockeyRig_Prototype|HockeyRig_Prototype|Squat_Check": [
+      0.0,
+      0.12999993562698364,
+      0.6999999284744263
+    ]
+  },
+  "source_copy_sha256": "d21237a23f42ca375ce7d7ed11a01e8c00d63677dd2519e35266f48ca7248c48",
+  "unity_validation": "not performed",
+  "all_bone_roundtrip": {
+    "ArmReach_Check": {
+      "max_bone_position_error_m": 3.7292463188834904e-06,
+      "max_bone_rotation_error_radians": 0.0
+    },
+    "BindPose_Check": {
+      "max_bone_position_error_m": 3.7292463188834904e-06,
+      "max_bone_rotation_error_radians": 0.0
+    },
+    "SidePush_Check": {
+      "max_bone_position_error_m": 7.627275341648691e-06,
+      "max_bone_rotation_error_radians": 0.0
+    },
+    "Squat_Check": {
+      "max_bone_position_error_m": 1.0748389597050736e-05,
+      "max_bone_rotation_error_radians": 0.0
+    }
+  },
+  "fix": "Pose displacement transferred from Hips to Root to preserve translation when imported bones are connected."
+}

@@ -1,0 +1,28 @@
+{
+  "source_vertices": 201669,
+  "working_vertices": 9000,
+  "working_triangles": 18000,
+  "unweighted_vertices": 0,
+  "max_influences": 4,
+  "bones": 22,
+  "topology": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "components_vertices": [
+      9000
+    ]
+  },
+  "actions": [
+    "BindPose_Check",
+    "Squat_Check",
+    "SidePush_Check",
+    "ArmReach_Check"
+  ],
+  "limitations": [
+    "Triangle-decimated prototype, NOT production joint-loop retopology",
+    "No finger articulation; ArmReach is not a validated stick grip",
+    "No UVs or texture baking",
+    "Pose checks are static QA clips, not hockey animations",
+    "No Unity Humanoid or target-device validation"
+  ]
+}

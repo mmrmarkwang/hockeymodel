@@ -1,0 +1,15 @@
+[
+  {
+    "object": "mesh_node",
+    "vertices_after_import": 201669,
+    "polygons": 277268,
+    "dimensions_m": [
+      0.9992795586585999,
+      0.3385833501815796,
+      1.9038879871368408
+    ],
+    "uv_layers": 0,
+    "vertex_groups": 0,
+    "armature_modifiers": 0
+  }
+]
